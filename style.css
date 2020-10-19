@@ -1,0 +1,157 @@
+body{
+  margin:0px;
+  font-family: Microsoft JhengHei;
+}
+
+.background{
+   background-image:
+  url('https://pic.52112.com/180705/JPG-180705_1204/vYz0Pw24sl_small.jpg');
+  background-size:cover;
+  background-position:center;
+}
+
+.title1{
+  font-size:54px;
+  font-weight:bolder;
+  display:flex;
+  justify-content:center;
+  padding-top:56px;
+  border-bottom:10px double #272727;
+  color:#272727;
+  animation-name:move;
+  animation-duration:3s;
+  animation-delay:1s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+}
+
+.content{
+  display:flex;
+  flex-direction:row;
+}
+
+
+.Whoareme{
+  display:flex;
+  flex-direction:column;
+  height:1000px;
+  width:25%;
+  text-align:center;
+}
+
+.photo{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  margin-top:50px;
+  margin-left:19%;
+  margin-bottom:24px;
+  border:8px double #272727;
+}
+
+.word{
+  font-size:20px;
+  margin-bottom:30px;
+  margin-left:18%;
+  color:#272727;
+}
+
+.word2{
+  margin-top:30px;
+}
+
+.share{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+.fb{
+  width:70px;
+  height:70px;
+  margin:12px;
+  border-radius:50%;
+  border:6px solid transparent;
+}
+.mystory{
+  display:flex;
+  flex-direction:column;
+  background-color:;
+  width:75%;
+  margin:120px;
+}
+
+.word3{
+  font-size:36px;
+  margin-bottom:12px;
+  color:#272727;
+  font-weight:bolder;
+  display:flex;
+  border:6px solid transparent;
+}
+.word3:hover{
+  text-decoration: underline;
+  color:#003060;
+}
+
+.fb:hover {
+  border:6px solid #FFD306;
+}
+
+.word4{
+  font-size:24px;
+  margin-bottom:30px;
+  display:flex;
+  flex-direction:column;
+  margin-left:10px;
+  color:#3c3c3c;
+}
+
+.word5{
+  margin-bottom:13px;
+  margin-left:10px;
+}
+
+@keyframes move{
+   from{
+    color:white;
+  }
+  to{
+    color:black;
+  }
+}
+
+.aball{
+  width:80px;
+  height:80px;
+  background-color:red;
+  border-radius:50%;
+  animation-name:move2;
+  animation-duration:3s;
+  animation-delay:1s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+}
+
+@keyframes move2{
+   0%{
+    margin-left:0%;
+    background-color:#FF7575;
+  }
+  25%{
+    margin-left:25%;
+    background-color:#FFE153;
+  }
+  50%{
+    margin-left:50%;
+    background-color:#93FF93;
+  }
+  75%{
+    margin-left:75%;
+    background-color:#81C0C0;
+  }
+  100%{
+    margin-left:94%;
+    background-color:#B766AD;
+  }
+}
